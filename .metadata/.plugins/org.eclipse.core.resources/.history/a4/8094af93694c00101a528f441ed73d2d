@@ -1,0 +1,63 @@
+package com.datastructures;
+
+import java.util.*;
+
+public class Search {
+	public static Product linearSearch(Product[] products,String key) {
+		for(Product ele:products) {
+			if(ele.productName.equalsIgnoreCase(key)) {
+				System.out.printf("%s found",key);
+				return ele;
+			}
+		}
+		return null;
+	}
+	public static Product binarySearch(Product[] products,String key) {
+		int mid;
+		int low=0,high=products.length-1;
+		while(low<=high) {
+			mid=low+(low-high)/2;
+			int compare=products[mid].productName.compareToIgnoreCase(key);
+			if(compare==0) {
+				return products[mid];
+			}
+			else if(compare>0) {
+				high=mid-1;
+			}
+			else {
+				low=mid+1;
+			}
+		}
+		return null;
+	}
+public static void main(String [] args) {
+	Product[] products= {
+			new Product(101, "Hoodies", "Fashion"),
+			new Product(102, "Rice Packets", "Groceries"),
+			new Product(103, "Laptops", "Electronics"),
+			new Product(104, "Mobiles", "Electronics"),
+			new Product(105, "Shoes", "Fashion"),
+	};
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Enter the Product you want to Search:");
+	String key = sc.nextLine().trim();
+	Product obj = linearSearch(products,key);
+	System.out.println("Implementing Linear Search....");
+	if(obj==null) {
+		System.out.println("Key not found");
+	}
+	else {
+		System.out.println("Product Name: "+obj.productName+"\nProduct ID: "+obj.productId+"\nProduct Category: "+obj.category+"\n\n");
+	}
+	
+	Arrays.sort(products, Comparator.comparing(p->p.productName.toLowerCase()));
+	System.out.println("Binary Search:");
+	
+	Product binsearch=binarySearch(products, key);
+	if(binsearch==null) {
+		System.out.println("The item "+key+" is not found!");
+	}else {
+		System.out.println("Product Name: "+binsearch.productName+"\nProduct ID: "+binsearch.productId+"\nProduct Category: "+binsearch.category);
+	}
+}
+}

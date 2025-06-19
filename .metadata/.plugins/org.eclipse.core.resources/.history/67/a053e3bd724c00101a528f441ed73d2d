@@ -1,0 +1,38 @@
+package com.recursion;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Forecasting {
+
+	public float lastSum(List<Float> pastData) {
+		int n = pastData.size();
+		float sum =pastData.get(n-1)+pastData.get(n-2)+pastData.get(n-3);
+		return sum;
+	}
+	public List<Float> recursionFunction(List<Float> pastData,int years) {
+		List <Float> Predicted = new ArrayList<>();
+		if(years==0) {
+			return Predicted;
+		}
+		float value = lastSum(pastData);
+		Predicted.add(value);
+		return recursionFunction(pastData, years - 1);
+	}
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the next number of years you want to predict:");
+		int years = sc.nextInt();
+        Forecasting forecast = new Forecasting();
+        List<Float> pastData = new ArrayList<>();
+        pastData.add(1.0f);
+        pastData.add(1.5f);
+        pastData.add(2.5f);
+        List<Float> result = forecast.recursionFunction(pastData, years);
+        System.out.println("Forecasted data:");
+        for (Float f : result) {
+            System.out.print(f + " ");
+        }
+    }
+}
