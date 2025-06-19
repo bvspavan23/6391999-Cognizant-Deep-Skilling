@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Forecasting {
-
+// To predict the future values of N years using recursion this algorithm simply uses sum of the last three previous year's data
 	public float lastSum(List<Float> pastData) {
 		int n = pastData.size();
 		float sum =pastData.get(n-1)+pastData.get(n-2)+pastData.get(n-3);
@@ -18,9 +18,9 @@ public class Forecasting {
 
         float value = lastSum(pastData);
         predicted.add(value);
-        pastData.add(value); // Update past data for next prediction
+        pastData.add(value);
 
-        recursionFunction(pastData, years - 1, predicted); // Recurse with updated lists
+        recursionFunction(pastData, years - 1, predicted);
     }
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -32,10 +32,7 @@ public class Forecasting {
         pastData.add(1.5f);
         pastData.add(2.5f);
         List<Float> predicted = new ArrayList<>();
-
-        // Start recursion
         forecast.recursionFunction(pastData, years, predicted);
-
         System.out.println("Forecasted data:");
         for (Float f : predicted) {
             System.out.print(f + " ");
