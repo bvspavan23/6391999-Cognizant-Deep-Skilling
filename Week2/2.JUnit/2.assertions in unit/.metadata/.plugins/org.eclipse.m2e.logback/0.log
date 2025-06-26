@@ -1,0 +1,27 @@
+2025-06-26 09:35:30,986 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2025-06-26 09:36:52,906 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-06-26 09:38:14,440 [Worker-21: Creating project "JunitAssertions"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.Week2:JunitAssertions:0.0.1-SNAPSHOT @ C:\Users\bvspa\Desktop\assertions\JunitAssertions\pom.xml.
+2025-06-26 09:38:15,247 [Worker-21: Creating project "JunitAssertions"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JunitAssertions/src/main/java
+2025-06-26 09:38:15,250 [Worker-21: Creating project "JunitAssertions"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /JunitAssertions/src/main/resources
+2025-06-26 09:38:15,251 [Worker-21: Creating project "JunitAssertions"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JunitAssertions/src/test/java
+2025-06-26 09:38:15,252 [Worker-21: Creating project "JunitAssertions"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /JunitAssertions/src/test/resources
+2025-06-26 09:46:56,685 [Worker-10: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-06-26 09:46:56,953 [Worker-10: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.junit:junit:0.0.1-SNAPSHOT @ C:\Users\bvspa\Desktop\assertions\JunitAssertions\pom.xml.
+2025-06-26 09:46:57,114 [Worker-10: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JunitAssertions/src/main/java
+2025-06-26 09:46:57,115 [Worker-10: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /JunitAssertions/src/main/resources
+2025-06-26 09:46:57,116 [Worker-10: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JunitAssertions/src/test/java
+2025-06-26 09:46:57,117 [Worker-10: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /JunitAssertions/src/test/resources
+2025-06-26 09:46:57,228 [Worker-10: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-06-26 09:47:27,243 [main] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating AssertionsTest from maven configuration
+2025-06-26 09:47:29,337 [Worker-3: Launching AssertionsTest] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-06-26 09:47:29,342 [Worker-3: Launching AssertionsTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-26 09:47:29,345 [Worker-3: Launching AssertionsTest] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-06-26 09:47:29,346 [Worker-3: Launching AssertionsTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-06-26 09:49:54,952 [Worker-8: Launching AssertionsTest] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-06-26 09:49:54,971 [Worker-8: Launching AssertionsTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-26 09:49:54,974 [Worker-8: Launching AssertionsTest] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-06-26 09:49:54,976 [Worker-8: Launching AssertionsTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-06-26 09:50:10,465 [Worker-34: Launching AssertionsTest] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-06-26 09:50:10,468 [Worker-34: Launching AssertionsTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-26 09:50:10,474 [Worker-34: Launching AssertionsTest] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-06-26 09:50:10,476 [Worker-34: Launching AssertionsTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes

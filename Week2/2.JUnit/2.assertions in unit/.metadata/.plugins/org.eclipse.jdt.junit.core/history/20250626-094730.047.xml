@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="AssertionsTest" project="JunitAssertions" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="com.Week2.AssertionsTest" time="0.006">
+    <testcase name="nullmethod" classname="com.Week2.AssertionsTest" time="0.005"/>
+    <testcase name="falsemethod" classname="com.Week2.AssertionsTest" time="0.001"/>
+    <testcase name="truemethod" classname="com.Week2.AssertionsTest" time="0.0"/>
+    <testcase name="notnullmethod" classname="com.Week2.AssertionsTest" time="0.0"/>
+    <testcase name="equalsmethod" classname="com.Week2.AssertionsTest" time="0.0"/>
+  </testsuite>
+</testrun>
