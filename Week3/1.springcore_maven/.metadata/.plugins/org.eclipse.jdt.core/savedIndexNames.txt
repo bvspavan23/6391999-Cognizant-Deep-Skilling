@@ -1,0 +1,10 @@
+INDEX VERSION 1.134+C:\Users\bvspa\Desktop\spring\.metadata\.plugins\org.eclipse.jdt.core
+2999678675.index
+496176909.index
+1865797976.index
+3885178503.index
+468916598.index
+3413270776.index
+3836824552.index
+3503295965.index
+2086417800.index
